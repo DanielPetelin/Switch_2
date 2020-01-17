@@ -1,4 +1,5 @@
 // сделайте это, только с помощью свитч.
+// первая задача.
 // const number = +prompt('Введите число между 0 и 3', '');
 
 // if (number === 0) {
@@ -13,20 +14,21 @@
 //   alert('Вы ввели число 2, а может и 3');
 // }
 
+// вторая задача.
 // switch (browser) {
 //     case 'Edge':
-//       alert( "You've got the Edge!" );
+//       alert("You've got the Edge!");
 //       break;
   
 //     case 'Chrome':
 //     case 'Firefox':
 //     case 'Safari':
 //     case 'Opera':
-//       alert( 'Okay we support these browsers too' );
+//       alert('Okay we support these browsers too');
 //       break;
   
 //     default:
-//       alert( 'We hope that this page looks ok!' );
+//       alert('We hope that this page looks ok!');
 //   }
 
 // решение первой задачи.
@@ -51,7 +53,7 @@ var browser = prompt('What is your browser?');
 if (browser == 'Edge') {
     alert("You've got the Edge!")
 } else if (browser == 'Chrome' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera') {
-    alert( 'Okay we support these browsers too' );
+    alert('Okay we support these browsers too');
 } else {
-    alert( 'We hope that this page looks ok!' );
+    alert('We hope that this page looks ok!');
 };
